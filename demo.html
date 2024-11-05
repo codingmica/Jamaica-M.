@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey In Life</title>
+    <style>
+        body {
+            background-image: url(images/image_by_url.avif);
+            background-size: cover;
+            background-position: auto;
+            background-attachment: fixed;
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
+            font-weight: bold;
+            transition: color 0.3s ease;
+        }
+
+        .navbar a:hover {
+            color: palevioletred;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            font-size: 2.5em;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            background-color: rgba(255, 255, 255, 0.8);
+            color: black;
+            padding: 20px;
+            border-radius: 15px;
+            border: 2px solid palevioletred;
+            transition: all 0.3s ease;
+        }
+
+        h1:hover {
+            transform: scale(1.05);
+            background-color: rgba(255, 255, 255, 0.9);
+        }
+
+        .align {
+            display: flex;
+            gap: 20px;
+            margin: auto;
+            flex-wrap: nowrap;
+            justify-content: center;
+            max-width: 1200px;
+            padding: 20px;
+        }
+
+        .image-container {
+            text-align: center;
+        }
+
+        .image-container img {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .debut-text {
+            font-size: 20px; 
+            margin-top: 8px; 
+            color: black;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="content1.html">My Journey</a>
+        <a href="content2.html">Personal Growth</a>
+        <a href="content3.html">Life Experiences</a>
+        <a href="content4.html">My Debut</a>
+    </div>
+
+    <h1>My Journey In Life</h1>
+
+    <div class="align">
+        <div class="image-container">
+            <div class="debut-text">My Journey</div> 
+            <a href="content1.html">
+                <img src="images/pic1.jpg" alt="My Journey">
+            </a>
+        </div>
+
+        <div class="image-container">
+            <div class="debut-text">Personal Growth</div> 
+            <a href="content2.html">
+                <img src="images/pic1.jpg" alt="Personal Growth">
+            </a>
+        </div>
+
+        <div class="image-container">
+            <div class="debut-text">Life Experiences</div> 
+            <a href="content3.html">
+                <img src="images/pic1.jpg" alt="Life Experiences">
+            </a>
+        </div>
+
+        <div class="image-container">
+            <div class="debut-text">My Debut</div> 
+            <a href="content4.html">
+                <img src="images/pic1.jpg" alt="My Debut">
+            </a>
+        </div>
+    </div>
+</body>
+</html>

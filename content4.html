@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Journey</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 2.5em;
+            color: #2c3e50;
+        }
+
+        p {
+            max-width: 800px;
+            margin: auto;
+            padding: 10px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+            justify-items: center;
+            margin: 20px 0;
+        }
+
+        .image-container {
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.3s;
+        }
+
+        .image-container:hover {
+            transform: scale(1.05);
+        }
+
+        .image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        /* Responsive adjustments */
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2em;
+            }
+
+            p {
+                padding: 15px;
+            }
+
+            .image-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .image-container {
+                width: 100px;
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Debut</h1>
+
+    <div class="image-grid">
+        <div class="image-container">
+            <img src="images/im4.jpg" alt="Photo from my debut celebration">
+        </div>
+
+        <div class="image-container">
+            <img src="images/imcake.jpg" alt="Photo from my debut celebration">
+        </div>
+
+        <div class="image-container">
+            <img src="images/im5.jpg" alt="Photo from my debut celebration">
+        </div>
+
+        <div class="image-container">
+            <img src="images/im2.jpg" alt="Photo from my debut celebration">
+        </div>
+
+        <div class="image-container">
+            <img src="images/pic1.jpg" alt="Photo from my debut celebration">
+        </div>
+
+        <div class="image-container">
+            <img src="images/im1.jpg" alt="Photo from my debut celebration">
+        </div>
+    </div>
+
+    <p>This photograph captures a memorable event from October 22, two years ago—my debut celebration, a day thoughtfully planned by my parents to mark my 18th birthday.</p>
+
+    <p>The event was held at an simple venue, complete with a professional photographer, makeup artist, live musicians, and an array of thoughtful touches to create a truly extraordinary experience.</p>
+
+    <p>Surrounded by friends, family, and loved ones, the day was filled with joy, love, and laughter.</p>
+
+    <p>The celebration included traditional debut ceremonies, such as the 18 candles and 18 bills, where heartfelt messages and blessings were shared, as well as gift presentations and a series of beautiful dance performances.</p>
+
+    <p>One of the highlights was a captivating dance performance by a close classmate, whose talent brought an added energy to the event.</p>
+
+    <p>This day will forever remain a cherished memory, marked by the warmth, joy, and support of everyone who joined in the celebration.</p>
+</body>
+</html>
